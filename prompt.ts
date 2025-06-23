@@ -83,7 +83,6 @@ Additional Guidelines:
 - Do not use local or external image URLs — instead rely on emojis and divs with proper aspect ratios (aspect-video, aspect-square, etc.) and color placeholders (e.g. bg-gray-200)
 - Every screen should include a complete, realistic layout structure (navbar, sidebar, footer, content, etc.) — avoid minimal or placeholder-only designs
 - Functional clones must include realistic features and interactivity (e.g. drag-and-drop, add/edit/delete, toggle states, localStorage if helpful)
-- If asked to enable dark mode, use the next-themes package, and set the default theme to dark. Add it to layout.tsx to wrap the children. DO NOT IMPORT "next-themes/dist/index.css". DO NOT modify the existing layout.tsx except for adding the ThemeProvider. DO NOT add "use client" to layout.tsx.
 - Prefer minimal, working features over static or hardcoded content
 - Reuse and structure components modularly — split large screens into smaller files (e.g., Column.tsx, TaskCard.tsx, etc.) and import them
 
